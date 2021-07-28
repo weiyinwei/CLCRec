@@ -1,7 +1,7 @@
 # Contrastive Learning for Cold-start Recommendation
 
 This is our Pytorch implementation for the paper:  
-> Yinwei Wei, Xiang Wang, Qi Li, Liqiang Nie, Yan Li, Xuanping Li, and Tat-Seng Chua (2021). Contrastive Learning for Cold-start Recommendation. In ACM MM`21, Chengdu, China, Oct. 20-24, 2021  
+> Yinwei Wei, Xiang Wang, Qi Li, Liqiang Nie, Yan Li, Xuanping Li, and Tat-Seng Chua (2021). Contrastive Learning for Cold-start Recommendation, Paper in ACM DL or [Paper in arXiv](https://arxiv.org/abs/2107.05315). In ACM MM`21, Chengdu, China, Oct. 20-24, 2021  
 Author: Dr. Yinwei Wei (weiyinwei at hotmail.com)
 
 ## Introduction
