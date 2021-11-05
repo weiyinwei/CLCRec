@@ -92,8 +92,9 @@ class CLCRec(torch.nn.Module):
 
 
     def forward(self, user_tensor, item_tensor):
-
-        pos_item_tensor = item_tensor[:, 0].repeat(1, 1+self.num_neg).view(-1, 1).squeeze()
+        pos_item_tensor = item_tensor[:, 0].unsqueeze(1)
+        pos_item_tensor = pos_item_tensor.repeat(1, 1+self.num_neg).view(-1, 1).squeeze()
+        
         user_tensor = user_tensor.view(-1, 1).squeeze()
         item_tensor = item_tensor.view(-1, 1).squeeze()
 
